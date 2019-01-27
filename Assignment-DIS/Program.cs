@@ -96,7 +96,7 @@ namespace Assignment1_S19
                 Console.WriteLine("Exception occured while computing getSeriesResult()");
             }
 
-            return sum;
+            return Math.Round(sum,3);
         }
         static double factorial(double i)
         {
@@ -202,6 +202,7 @@ namespace Assignment1_S19
                         }
 
                     }
+                
                     Console.WriteLine(a[i] + "  :  " + counter);
                 }
 
